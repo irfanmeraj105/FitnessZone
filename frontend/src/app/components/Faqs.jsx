@@ -56,7 +56,7 @@ const Faqs = () => {
                   src="/assets/profile img one.jpg"
                   
                   alt="profile"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover" 
                 />
               </div>
             ))}
