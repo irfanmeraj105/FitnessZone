@@ -57,6 +57,7 @@ const Faqs = () => {
                   
                   alt="profile"
                   className="w-full h-full object-cover" 
+                  // checking 
                 />
               </div>
             ))}
