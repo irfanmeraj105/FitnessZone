@@ -33,13 +33,13 @@ const Header = () => {
           <Link href={"#whychooseus"} className="cursor-pointer font-medium">
             Why Choose US
           </Link>
-          <Link href={"/"} className="cursor-pointer font-medium">
+          <Link href={"#testimonials"} className="cursor-pointer font-medium">
             Testimonials
           </Link>
-          <Link href={"/"} className="cursor-pointer font-medium">
+          <Link href={"#trainers"} className="cursor-pointer font-medium">
             Trainers
           </Link>
-          <Link href={"/"} className="cursor-pointer font-medium">
+          <Link href={"#blog"} className="cursor-pointer font-medium">
             Blog
           </Link>
         </nav>
@@ -72,13 +72,13 @@ const Header = () => {
             <Link href={"#whychooseus"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
               Why Choose US
             </Link>
-            <Link href={"/"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
+            <Link href={"#testimonials"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
               Testimonials
             </Link>
-            <Link href={"/"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
+            <Link href={"#trainers"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
               Trainers
             </Link>
-            <Link href={"/"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
+            <Link href={"#blog"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
               Blog
             </Link>
           </div>

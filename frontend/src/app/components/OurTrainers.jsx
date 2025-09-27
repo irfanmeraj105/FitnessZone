@@ -4,7 +4,7 @@ import React from "react";
 const OurTrainers = () => {
   return (
     <>
-      <div className="bg-black p-10">
+      <div id="trainers" className="bg-black p-10">
         {/* div for the heading and para / */}
 
         <div>

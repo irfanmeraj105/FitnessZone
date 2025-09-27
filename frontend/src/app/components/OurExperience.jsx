@@ -49,7 +49,7 @@ const OurExperience = () => {
   const displayedReviews = reviews.slice(current, current + visible);
 
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4 space-y-10">
+    <div id="testimonials" className="max-w-6xl mx-auto py-12 px-4 space-y-10">
       {/* Top Section */}
       <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-center sm:text-left">

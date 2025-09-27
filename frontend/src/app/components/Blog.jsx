@@ -4,7 +4,7 @@ import { ImNewTab } from "react-icons/im";
 const Blog = () => {
   return (
     <>
-      <div className="bg-white py-12 px-6 md:px-12">
+      <div id="blog" className="bg-white py-12 px-6 md:px-12">
         {/* Wrapper */}
         <div className="max-w-5xl mx-auto">
           {/* Heading + Para + Button */}
