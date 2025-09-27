@@ -30,7 +30,7 @@ const Header = () => {
           <Link href={"/"} className="cursor-pointer font-medium text-[#FF8080]">
             Home
           </Link>
-          <Link href={"/"} className="cursor-pointer font-medium">
+          <Link href={"#whychooseus"} className="cursor-pointer font-medium">
             Why Choose US
           </Link>
           <Link href={"/"} className="cursor-pointer font-medium">
@@ -69,7 +69,7 @@ const Header = () => {
             <Link href={"/"} className="cursor-pointer font-medium text-[#FF8080]" onClick={() => setIsOpen(false)}>
               Home
             </Link>
-            <Link href={"/"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
+            <Link href={"#whychooseus"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>
               Why Choose US
             </Link>
             <Link href={"/"} className="cursor-pointer font-medium" onClick={() => setIsOpen(false)}>

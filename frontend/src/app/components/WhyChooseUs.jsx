@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
   return (
     <>
       {/* main why choose us section */}
-      <div className="mt-20 px-6 md:px-10 flex flex-col items-center justify-center">
+      <div id="whychooseus" className="mt-20 px-6 md:px-10 flex flex-col items-center justify-center">
         {/* heading and description */}
         <div className="max-w-2xl flex flex-col items-center justify-center text-center">
           <h2 className="text-2xl md:text-4xl font-bold text-black mb-6">
